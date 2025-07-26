@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Logo Gallery</title>
+</head>
+<body class="second-bg">
+
+<style>
+  :root {
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #fffb00;
+}
+
+body.second-bg {
+  background-color: var(--second-bg-color);
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+  padding: 2rem;
+}
+
+
+.back-btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+.back-btn:hover {
+  transform: translateX(-5px);
+  text-decoration: underline;
+}
+
+
+.logo-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.logo-heading span {
+  color: var(--main-color);
+}
+
+
+.masonry-grid {
+  column-count: 3;
+  column-gap: 1rem;
+  padding: 1rem 0;
+}
+
+.masonry-grid img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  padding: 0.08rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.masonry-grid img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(255, 193, 7, 0.4);
+}
+
+
+@media (max-width: 1024px) {
+  .masonry-grid {
+    column-count: 2;
+  }
+}
+@media (max-width: 600px) {
+  .masonry-grid {
+    column-count: 1;
+  }
+}
+
+
+</style>
+
+  <section class="logo-section">
+    <a href="index.html" class="back-btn">← Back</a>
+    <h2 class="logo-heading">My <span>Logo Showcase</span></h2>
+
+    <div class="masonry-grid">
+      <img src="assets/logos/Aadhanya.jpg" alt="Logo 1">
+      <img src="assets/logos/Sakthibridal.jpg" alt="Logo 2">
+      <img src="assets/logos/muna.jpg" alt="Logo 3">
+      <img src="assets/logos/34.jpg" alt="Logo 1">
+      <img src="assets/logos/1000142723.png" alt="Logo 2">
+      <img src="assets/logos/Lehkanya.jpg" alt="Logo 3">
+      <img src="assets/logos/Frills black 2d.jpg.png" alt="Logo 1">
+      <img src="assets/logos/nutri.jpg" alt="Logo 2">
+      <img src="assets/logos/dhiiiKeZQxyli-31kaYxtA.webp" alt="Logo 3">
+      <img src="assets/logos/RDF.png" alt="Logo 1">
+      <img src="assets/logos/ZAN TRANSPARENT.jpg" alt="Logo 2">
+      <img src="assets/logos/purebliss1.png" alt="Logo 3">
+      <img src="assets/logos/mocky.png" alt="Logo 1">
+      <img src="assets/logos/vathiyar.jpg" alt="Logo 2">
+      <img src="assets/logos/Toystudio png.png" alt="Logo 3">
+      <img src="assets/logos/TLRE METAL.jpg" alt="Logo 1">
+      <img src="assets/logos/text_effect_165.png" alt="Logo 2">
+      <img src="assets/logos/Tamil.png" alt="Logo 3">  
+      <img src="assets/logos/SLME.png" alt="Logo 3">
+      <img src="assets/logos/SKRJPG.jpg" alt="Logo 1">
+      <img src="assets/logos/shaan2.png" alt="Logo 2">
+      <img src="assets/logos/Screenshot_2025-07-26-14-12-26-21_1c337646f29875672b5a61192b9010f9.jpg" alt="Logo 3">
+      <img src="assets/logos/Quali Agro Farm - Black.png" alt="Logo 3">
+      <img src="assets/logos/png.png" alt="Logo 3">
+      <img src="assets/logos/Logo Mockup02.png" alt="Logo 3">
+      <img src="assets/logos/IMG-20241230-WA0016.jpg" alt="Logo 3">
+    
+    </div>
+  </section>
+
+</body>
+</html>
